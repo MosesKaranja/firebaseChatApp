@@ -35,7 +35,16 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     testImplementation 'junit:junit:4.12'
 
-    implementation 'com.android.support:design:28.0.0'
+    // COMMENTED THIS OUT. com.android.support IS OLD
+    // AND SHOULD BE REPLACED WITH androidx DEPENDENCIES
+    // LIKE YOU DID FOR appcompat
+    // The dependency below should be replaced with
+    // the one below it according to this;
+    // https://developer.android.com/jetpack/androidx/migrate/artifact-mappings
+//    implementation 'com.android.support:design:28.0.0'
+    implementation 'com.google.android.material:material:1.1.0'
+
+
     //implementation 'com.android.support:appcompat-v7:28.+'
 
     //implementation 'androidx.appcompat:appcompat:1.0.0'

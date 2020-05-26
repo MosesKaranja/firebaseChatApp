@@ -20,6 +20,9 @@ allprojects {
         jcenter()
         mavenLocal()
 
+        // ADDED THIS. Required for the android dependencies.
+        // I wonder why it's required both here and above under buildscript.repositories
+        google()
     }
 }
 

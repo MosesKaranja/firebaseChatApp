@@ -16,7 +16,13 @@
 package com.google.firebase.udacity.friendlychat;
 
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
+
+// This cannot be resolved because we removed the com.android.support:appcompat dependency
+// import android.support.v7.app.AppCompatActivity;
+
+// So we replace it with its AndroidX alternative
+import androidx.appcompat.app.AppCompatActivity;
+
 import android.text.Editable;
 import android.text.InputFilter;
 import android.text.TextWatcher;
@@ -29,6 +35,7 @@ import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.ListView;
 import android.widget.ProgressBar;
+
 
 import java.util.ArrayList;
 import java.util.List;
