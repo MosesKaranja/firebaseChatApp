@@ -1,5 +1,8 @@
 apply plugin: 'com.android.application'
 
+//Add this line
+apply plugin: 'com.google.gms.google-services'
+
 repositories {
     mavenLocal()
     flatDir {
@@ -53,4 +56,8 @@ dependencies {
 
     // Displaying images
     implementation 'com.github.bumptech.glide:glide:3.6.1'
+
+    //add the Firebase SDK for Google Analytics
+    implementation 'com.google.firebase:firebase-analytics:17.2.2'
+
 }
