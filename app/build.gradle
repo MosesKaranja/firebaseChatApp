@@ -72,6 +72,20 @@ dependencies {
     //Firebase Authentication
     implementation 'com.google.firebase:firebase-auth:19.4.0'
 
+    //Firebase Storage dependency
+    implementation 'com.google.firebase:firebase-storage:19.2.0'
 
+
+    //Import BOM to make it not necessary to add versions
+    implementation platform('com.google.firebase:firebase-bom:26.1.0')
+
+    //Firebase Cloud Messaging
+    implementation 'com.google.firebase:firebase-messaging'
+    implementation 'com.google.firebase:firebase-analytics'
+
+    //Firebase config dependency
+    implementation  'com.google.firebase:firebase-config'
+
+    
 
 }

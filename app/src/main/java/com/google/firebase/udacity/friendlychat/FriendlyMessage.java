@@ -15,6 +15,10 @@
  */
 package com.google.firebase.udacity.friendlychat;
 
+import android.net.Uri;
+
+import com.google.android.gms.tasks.Task;
+
 public class FriendlyMessage {
 
     private String text;
@@ -22,6 +26,7 @@ public class FriendlyMessage {
     private String photoUrl;
 
     public FriendlyMessage() {
+
     }
 
     public FriendlyMessage(String text, String name, String photoUrl) {
