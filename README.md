@@ -1,14 +1,14 @@
 <<<<<<< HEAD
-# Project Name 
+<h1>Project Name</h1>
 
-FirebaseChatApp
+<h2>FirebaseChatApp</h2>
 
-## Overview
+<h3>Overview</h3>
 
-FirebaseChat is an app that allows users to send and receive text and photos in realtime across platforms.
+<p>FirebaseChat is an app that allows users to send and receive text and photos in realtime across platforms.</p>
 
-## Planned Functionalities
-# Sending Text from one phone to another
-# Sending Images from one phone to another
-# Sending Audio from one phone to another
+<h2>Planned Functionalities</h2>
+<p>Sending Text from one phone to another</p>
+<p>Sending Images from one phone to another</p>
+<p>Sending Audio from one phone to another</p>
 
